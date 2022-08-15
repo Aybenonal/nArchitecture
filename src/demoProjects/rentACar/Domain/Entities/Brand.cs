@@ -14,7 +14,7 @@ namespace Domain.Entities
         {
 
         }
-        public Brand(int id,string name)
+        public Brand(int id,string name):this()
         {
             Id = id;
             Name = name;
